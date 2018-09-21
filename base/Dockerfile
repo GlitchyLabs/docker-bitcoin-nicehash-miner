@@ -1,5 +1,5 @@
-FROM debian:jessie
-LABEL maintainer="first087@gmail.com"
+FROM ubuntu:18.04
+LABEL maintainer="glitchylabs@gmail.com"
 
 WORKDIR /app/
 
