@@ -1,7 +1,7 @@
-FROM first087/bitcoin-nicehash-miner:nheqminer as builder
+FROM glitchylabs/bitcoin-nicehash-miner:nheqminer as builder
 
-FROM first087/bitcoin-nicehash-miner:base
-LABEL maintainer="first087@gmail.com"
+FROM glitchylabs/bitcoin-nicehash-miner:base
+LABEL maintainer="glitchylabs@gmail.com"
 
 WORKDIR /app/
 
