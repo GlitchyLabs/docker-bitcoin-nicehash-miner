@@ -5,7 +5,7 @@ LABEL maintainer="glitchylabs@gmail.com"
 
 WORKDIR /app/
 
-COPY --from=builder /app/nheqminer/Linux_cmake/nheqminer_cpu/nheqminer_cpu .
+COPY --from=builder /app/nheqminer/Linux_cmake/nheqminer_cpu_tromp/nheqminer_cpu_tromp .
 COPY script/ .
 
 CMD ["/bin/bash", "start.sh"]
