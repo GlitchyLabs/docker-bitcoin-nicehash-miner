@@ -36,4 +36,4 @@ echo "\$THREAD      : ${THREAD}"
 echo
 echo "====================  START  ===================="
 
-./nheqminer_cpu -l "equihash.${NH_REGION}.nicehash.com:3357" -u "${BTC_ADDR}.${WORKER_NAME}" -t ${THREAD}
+./nheqminer_cpu_tromp -l "equihash.${NH_REGION}.nicehash.com:3357" -u "${BTC_ADDR}.${WORKER_NAME}" -t ${THREAD}
