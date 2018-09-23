@@ -48,4 +48,4 @@ echo "\$PORT        : ${PORT}"
 echo
 echo "====================  START  ===================="
 
-./cpuminer -a ${ALGO} -o stratum+tcp://${ALGO}.{$NH_REGION}.nicehash.com:${PORT} -u ${BTC_ADDR}.${WORKER_NAME} -t ${THREAD}
+./cpuminer -a ${ALGO} -o stratum+tcp://${ALGO}.${NH_REGION}.nicehash.com:${PORT} -u ${BTC_ADDR}.${WORKER_NAME} -t ${THREAD}
